@@ -1,27 +1,31 @@
+/* Archivo register.page.scss */
+
+/* Estilo global para ion-content */
+ion-content {
+  background-color: #000000; /* Fondo blanco */
+  color: #ffffff; /* Texto negro */
+}
+
+/* Estilo para el contenedor principal */
 #container {
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  background-color: #000000; /* Fondo blanco */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+/* Estilo para los botones */
+ion-button.custom-button {
+  --background: #ffffff; /* Fondo blanco */
+  --border-color: #ffffff; /* Bordes blancos */
+  --color: #000000; /* Texto negro */
+  --border-width: 2px; /* Grosor del borde */
+  --border-style: solid; /* Estilo del borde */
+  --border-radius: 4px; /* Radio de bordes redondeados (opcional) */
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+ion-content {
+background-color: #000000; /* Fondo blanco */
+color: #ffffff; /* Texto negro */
 }
